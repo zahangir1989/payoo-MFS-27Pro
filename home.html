@@ -11,19 +11,30 @@
   <main class="flex justify-center">
     <div class="mockup-phone">
         <div class="mockup-phone-camera"></div>
-        <div class="mockup-phone-display  grid place-content-center">
+        <div class="mockup-phone-display grid place-content-center bg-gray-100">
           <!-- stat here -->
           <div class="stats shadow">
-            <div class="stat text-white">
+            <div class="stat border-none">
               <div id="total-balance" class="stat-value">100</div>
               <div class="stat-desc">Available Balance</div>
             </div>
+            <div class="flex justify-center border-none">
+              <button>Log Out</button>
+            </div>
           </div>
           <!-- stat end -->
+
+          <div>
+            <h2 class="text-center font-bold py-10">🔥 Welcome to Payooo!</h2>
+          </div>
            <!-- action button -->
-          <div class="flex gap-3">
-            <button id="btn-money" class="btn btn-lg">Add Money</button>
-            <button id="btn-out" class="btn btn-lg">Cash Out</button>
+          <div class="grid grid-cols-2 gap-1">
+            <button id="btn-money" class="btn btn-lg p-6 rounded-sm">Add Money</button>
+            <button id="btn-out" class="btn btn-lg p-6 rounded-sm">Cash Out</button>
+            <button id="btn-out" class="btn btn-lg p-6 rounded-sm">Transfer Money</button>
+            <button id="btn-out" class="btn btn-lg p-6 rounded-sm">Get Bonus</button>
+            <button id="btn-out" class="btn btn-lg p-6 rounded-sm">Pay Bill</button>
+            <button id="btn-out" class="btn btn-lg p-6 rounded-sm">Transactions</button>
           </div>
            <!-- action button end -->
 
